@@ -74,3 +74,7 @@ def magnitude(v: Vector) -> float:
   return math.sqrt(sum_of_squares(v))
 
 assert magnitude([3, 4]) == 5
+
+
+def distance(v: Vector, w: Vector) -> float:
+  return magnitude(subtract(v, w))
