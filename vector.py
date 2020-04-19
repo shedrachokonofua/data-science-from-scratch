@@ -5,6 +5,9 @@ Rudimentary vector & vector operations implementation
 from typing import List
 import math
 
+"""Vector
+A point in a finite-dimensional space that has both magnitude and direction properties.
+"""
 Vector = List[float]
 
 def add(v: Vectordot, w: Vector) -> Vector:
