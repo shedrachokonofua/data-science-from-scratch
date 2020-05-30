@@ -10,7 +10,7 @@ A point in a finite-dimensional space that has both magnitude and direction prop
 """
 Vector = List[float]
 
-def add(v: Vectordot, w: Vector) -> Vector:
+def add(v: Vector, w: Vector) -> Vector:
   assert len(v) == len(w), "vectors must have an equal number of components"
 
   return [v_i + w_i for v_i, w_i in zip(v, w)]
